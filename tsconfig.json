@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/app/orders/Form.jsx", "src/app/orders/Order.jsx", "src/app/orders/OrderList.jsx", "src/app/orders/page.jsx", "src/app/orders/ParentOrder.jsx", "src/app/orders/PopUp.jsx", "src/app/companies/page.jsx", "src/app/companies/[company]/page.jsx", "src/app/login/page.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
